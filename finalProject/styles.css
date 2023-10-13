@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styles */
+header {
+  background-color: #094074;
+  color: white;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.logo img {
+  width: 120px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  font-weight: bold;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #3C6997;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #5ADBFF;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Feature Section Styles */
+#features, #why-choose {
+  padding: 2rem 0;
+}
+
+.feature, .reason {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feature h3, .reason h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Chat Section Styles */
+#chat {
+  text-align: center;
+  background-color: #3C6997;
+  padding: 2rem 0;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: #094074;
+  color: white;
+  padding: 1rem 0;
+}
